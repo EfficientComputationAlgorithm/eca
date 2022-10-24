@@ -1,7 +1,8 @@
 #!/bin/bash
 RANDOM=$$
 SIZE=10
-for i in {1..5}
+
+for i in {1..7}
 do
     FILE="${i}Random.txt"
     SIZE=$(($SIZE * 10))
